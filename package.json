@@ -1,0 +1,29 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "Command-line application generates SVG logo based in simple user input for shape, color, and 1-3 letter",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-a-v-i-d-w-r-i-g-h-t/svg-logo-maker.git"
+  },
+  "author": "David Wright",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-a-v-i-d-w-r-i-g-h-t/svg-logo-maker/issues"
+  },
+  "homepage": "https://github.com/d-a-v-i-d-w-r-i-g-h-t/svg-logo-maker#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.11"
+  }
+}
