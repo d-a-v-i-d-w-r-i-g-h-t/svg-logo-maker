@@ -1,6 +1,13 @@
 const fs = require('fs');
-const inquirer = require('inquirer');
 
+const userInput = require('./lib/userInput.js');
+
+console.log(
+  userInput.text,
+  userInput.textColor,
+  userInput.shape,
+  userInput.shapeColor
+  );
 
 // Pseudocode
 
