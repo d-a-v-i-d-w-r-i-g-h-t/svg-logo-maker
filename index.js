@@ -3,6 +3,7 @@ const chalk = require('chalk');
 
 const welcome = require('./lib/welcome.js');
 const userInput = require('./lib/userInput.js');
+const generateSVG = require('./lib/generateSVG.js');
 const writeToFile = require('./lib/writeToFile.js');
 
 const newFileName = 'logo.svg';
@@ -31,9 +32,9 @@ async function main() {
     console.error('Error:', error);
   }
 
-  log('generate SVG file');
+  const svgData = generateSVG(input);
 
-  writeToFile(newFileName, "Hello world!");
+  writeToFile(newFileName, svgData);
 }
 
 main();
