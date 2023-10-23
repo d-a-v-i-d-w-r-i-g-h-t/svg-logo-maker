@@ -10,12 +10,13 @@ const newFileName = 'logo.svg';
 
 const log = console.log;
 
+let input;
 async function main() {
 
   welcome()
 
   try {
-    const input = await userInput();
+    input = await userInput();
 
     log('');
     log('User Input:', input);
