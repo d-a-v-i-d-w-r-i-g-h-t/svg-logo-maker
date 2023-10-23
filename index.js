@@ -1,15 +1,48 @@
-const fs = require('fs');
+const chalk = require('chalk');
 
+
+const welcome = require('./lib/welcome.js');
 const userInput = require('./lib/userInput.js');
+const writeToFile = require('./lib/writeToFile.js');
 
-console.log(
-  userInput.text,
-  userInput.textColor,
-  userInput.shape,
-  userInput.shapeColor
-  );
+const newFileName = 'logo.svg';
+
+const log = console.log;
+
+async function main() {
+
+  welcome()
+
+  try {
+    const input = await userInput();
+
+    log('');
+    log('User Input:', input);
+
+    log('');
+
+    log('Text: ' + chalk.hex(input.textColor).bold(input.text));
+    log('Shape: ' + chalk.hex(input.shapeColor).bold(input.shape));
+
+    log('');
+
+  } catch (error) {
+    // Handle errors that might occur in the main logic
+    console.error('Error:', error);
+  }
+
+  log('generate SVG file');
+
+  writeToFile(newFileName, "Hello world!");
+}
+
+main();
+
+
 
 // Pseudocode
+
+//  0. Display welcome message
 
 //  1. Prompt user for logo text
 //     a. response must have 1-3 characters
