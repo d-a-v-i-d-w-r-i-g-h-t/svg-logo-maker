@@ -1,5 +1,4 @@
-const chalk = require('chalk');
-
+// const chalk = require('chalk');
 
 const welcome = require('./lib/welcome.js');
 const userInput = require('./lib/userInput.js');
@@ -18,15 +17,15 @@ async function main() {
   try {
     input = await userInput();
 
-    log('');
-    log('User Input:', input);
+    // log('');
+    // log('User Input:', input);
 
-    log('');
+    // log('');
 
-    log('Text: ' + chalk.hex(input.textColor).bold(input.text));
-    log('Shape: ' + chalk.hex(input.shapeColor).bold(input.shape));
+    // log('Text: ' + chalk.hex(input.textColor).bold(input.text));
+    // log('Shape: ' + chalk.hex(input.shapeColor).bold(input.shape));
 
-    log('');
+    // log('');
 
   } catch (error) {
     // Handle errors that might occur in the main logic

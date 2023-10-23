@@ -1,6 +1,10 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="200">
-    <defs><style type="text/css">@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Raleway|Roboto|Indie+Flower|Gamja+Flower");</style></defs>
-<polygon points="150, 19.999999999999996 242.37604307034013, 180 57.62395692965987, 180" fill="darkblue"/>
-<text x="150" y="170" font-size="60" text-anchor="middle" fill="lightblue">DSW</text>
+  <defs>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+    </style>
+  </defs>
+  <circle cx="150" cy="100" r="80" fill="darkblue"/>
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="lightblue" font-family="Indie Flower">DSW</text>
 </svg>
