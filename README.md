@@ -9,9 +9,9 @@ This command-line application generates an SVG logo based on simple user input.
   
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Tests](#tests)
-* [Questions](#questions)
+* [Credits](#credits)
+* [License](#license)
 
 
 ## Installation
@@ -28,13 +28,6 @@ npm install
 Use the command node index.js to run the application. Provide a shape, color, and text input in response to the command-line prompts. The new file logo.svg will be generated in the 'outputs' folder.
 
 
-## License
-
-This project is licensed under the terms of the MIT License.
-
-Detailed information about this license can be found [here](https://choosealicense.com/licenses/mit/).
-
-
 ## Tests
 
 Run the following command to run tests:
@@ -44,10 +37,19 @@ npm test
 ```
 
 
-## Questions
+## Credits
 
-Find me on GitHub: [d-a-v-i-d-w-r-i-g-h-t](https://github.com/d-a-v-i-d-w-r-i-g-h-t)
+ASCII art leters were created with the [ASCII Art Generator](https://ascii.mastervb.net/text_to_ascii.php).
 
-or email me at [davidswright73@gmail.copm](mailto:davidswright73@gmail.copm) with any questions.
+[ChatGPT](https://chat.openai.com/) created an object for me with all 140 HTML named colors and their HEX values.
+
+I got ideas on how to validate HEX color input from [GeeksforGeeks](https://www.geeksforgeeks.org/), [Check if a string represents a hexadecimal number or not](https://www.geeksforgeeks.org/check-if-a-string-represents-a-hexadecimal-number-or-not/#).
+
+
+## License
+
+This project is licensed under the terms of the MIT License.
+
+Detailed information about this license can be found [here](https://choosealicense.com/licenses/mit/).
 
 ---
