@@ -1,10 +1,10 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="400">
   <defs>
     <style type="text/css">
-      @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+      @import url("https://fonts.googleapis.com/css?family=Arial");
     </style>
   </defs>
-  <rect x="70" y="20" width="160" height="160" fill="black"/>
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="yellow" font-family="Open Sans">abc</text>
+  <circle cx="200" cy="200" r="160" fill="darkblue"/>
+  <text x="200" y="250" font-size="120" text-anchor="middle" fill="lightblue" font-family="Arial">DSW</text>
 </svg>
