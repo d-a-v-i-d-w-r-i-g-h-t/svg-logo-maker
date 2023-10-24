@@ -2,7 +2,7 @@
 
 ## Description [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This command-line application generates an SVG logo based on simple user input.
+This command-line application generates an SVG logo based on simple user input. It uses node fs to write files, and the npm inquirer package to provide user prompts and command-line input.
 
 
 ## Table of Contents
