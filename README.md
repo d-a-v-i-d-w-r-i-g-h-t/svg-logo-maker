@@ -33,6 +33,8 @@ node index.js
 
 Provide a shape, color, and text input in response to the command-line prompts. The new file logo.svg will be generated in the 'outputs' folder.
 
+A video walkthrough can be found [here](https://watch.screencastify.com/v/j08ayp0ClfJ7Y4tPykDY).
+
 
 ## Tests
 
@@ -41,6 +43,8 @@ Run the following command to run tests:
 ```
 npm test
 ```
+
+A video walkthrough showing successful tests can be found [here](https://watch.screencastify.com/v/W3chzSRmdfOGFJESWT2M).
 
 
 ## Credits
