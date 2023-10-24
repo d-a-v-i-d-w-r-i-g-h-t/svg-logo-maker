@@ -25,7 +25,13 @@ npm install
 
 ## Usage 
 
-Use the command node index.js to run the application. Provide a shape, color, and text input in response to the command-line prompts. The new file logo.svg will be generated in the 'outputs' folder.
+Use the following command to run the application:
+
+```
+node index.js
+```
+
+Provide a shape, color, and text input in response to the command-line prompts. The new file logo.svg will be generated in the 'outputs' folder.
 
 
 ## Tests
@@ -38,6 +44,10 @@ npm test
 
 
 ## Credits
+
+I used [inquirer 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4) for command-line user prompts and response input.
+
+I used [chalk 4.1.2](https://www.npmjs.com/package/chalk/v/4.1.2) for command-line text formatting.
 
 ASCII art leters were created with the [ASCII Art Generator](https://ascii.mastervb.net/text_to_ascii.php).
 
