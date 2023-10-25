@@ -5,6 +5,6 @@
       @import url("https://fonts.googleapis.com/css?family=Raleway");
     </style>
   </defs>
-  <circle cx="150" cy="100" r="80" fill="#FF8F8F"/>
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="cornflowerblue" font-family="Raleway">DSW</text>
+  <circle cx="150" cy="100" r="80" fill="#F8F8FF"/>
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="cornflowerblue" font-family="Raleway">ABC</text>
 </svg>
