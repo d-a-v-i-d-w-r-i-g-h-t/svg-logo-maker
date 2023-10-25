@@ -2,11 +2,13 @@
 
 ## Description [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This command-line application generates an SVG logo based on simple user input. It uses [node fs](https://nodejs.org/docs/latest-v18.x/api/fs.html#file-system) to write files, and the [npm inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) package to provide user prompts and command-line input. This project gave me an excellent opportunity to learn more about constructors, and in particular using child constructors that inherit common properties and methods from their parent, as the logos are generated using three primary shapes. I used these constructors to create an SVG file that would fulfil the user's desired specifications for shape, shape color, text, text color, text content, and font. The result is saved in the file 'logo.svg'.
+For this project I created a command-line application to dynamically generate an SVG logo. The logo is created based on simple user input.
+
+This application uses the [npm inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) package to provide user prompts and command-line input, and [Node fs](https://nodejs.org/docs/latest-v18.x/api/fs.html#file-system) to write the output file. This project gave me an excellent opportunity to learn more about constructors, and in particular using child constructors that inherit common properties and methods from their parent, as the logos are generated using three primary shapes. I used these constructors to create an SVG file that would fulfil the user's desired specifications for shape, shape color, text, text color, text content, font, and dimensions. The result is saved in the file 'logo.svg'.
 
 Additionally, I created a suite of automated tests to verify the correct functioning of the shapes constructors Circle, Square, and Triangle. The tests are run using [jest](https://www.npmjs.com/package/jest).
 
-Command-line formatting was done with [chalk](https://www.npmjs.com/package/chalk/v/4.1.2?activeTab=readme).
+A bit of fun command-line formatting was done with [chalk](https://www.npmjs.com/package/chalk/v/4.1.2?activeTab=readme) for my welcome message.
 
 A screenshot of the application and its output is shown below.
 
@@ -45,17 +47,45 @@ node index.js
 
 ![Welcome message formatted with chalk](./assets/images/welcome-message.png)
 
-On starting the application, the user is presented with a welcome message and then prompted to provide text, text color, font, shape, and shape color input in response to the command-line prompts. Inputs are all validated. The new file logo.svg will then be generated in the 'outputs' folder.
+On starting the application, the user is presented with a welcome message and then prompted to provide shape
 
-A video walkthrough can be found [here](https://watch.screencastify.com/v/j08ayp0ClfJ7Y4tPykDY).
 
-Font selection is shown below. Arrow keys allow scrolling up and down the wraparound list.
+text, text color, font, shape, and shape color input in response to the command-line prompts. Inputs are all validated. The new file logo.svg will then be generated in the 'outputs' folder.
 
-![Installing dependencies](./assets/images/select-font.png)
+Shape selection:
 
-Shape selection is shown below.
+![Shape selection](./assets/images/select-shape.png)
 
-![Installing dependencies](./assets/images/select-shape.png)
+Text input:
+
+![Text input](./assets/images/text-input.png)
+
+Font selection; arrow keys allow scrolling up and down the wraparound list:
+
+![Font selection](./assets/images/select-font.png)
+
+Text color input (example: using a color name):
+
+![Text color input](./assets/images/text-color.png)
+
+Shape color input (example: using a color HEX value):
+
+![Shape color input](./assets/images/shape-color.png)
+
+Height input (default value of 200 selected by hitting enter key):
+
+![Height input](./assets/images/height-input.png)
+
+Width input (default value of 300 selected by hitting enter key):
+
+![Width input](./assets/images/width-input.png)
+
+Success message:
+
+![Success message](./assets/images/success.png)
+
+A video walkthrough can be found [here](https://watch.screencastify.com/v/bwokk9wUR1FFxoWza6XA).
+
 
 
 
