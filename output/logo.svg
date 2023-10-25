@@ -2,9 +2,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="200">
   <defs>
     <style type="text/css">
-      @import url("https://fonts.googleapis.com/css?family=Raleway");
+      @import url("https://fonts.googleapis.com/css?family=Lato");
     </style>
   </defs>
-  <circle cx="150" cy="100" r="80" fill="#F8F8FF"/>
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="cornflowerblue" font-family="Raleway">ABC</text>
+  <circle cx="150" cy="100" r="80" fill="ghostwhite"/>
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="cornflowerblue" font-family="Lato">DSW</text>
 </svg>
