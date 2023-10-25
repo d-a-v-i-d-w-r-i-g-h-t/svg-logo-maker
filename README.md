@@ -47,10 +47,7 @@ node index.js
 
 ![Welcome message formatted with chalk](./assets/images/welcome-message.png)
 
-On starting the application, the user is presented with a welcome message and then prompted to provide shape
-
-
-text, text color, font, shape, and shape color input in response to the command-line prompts. Inputs are all validated. The new file logo.svg will then be generated in the 'outputs' folder.
+On starting the application, the user is presented with a welcome message and then prompted to provide shape, text, font, text color, shape color, height, and width input in response to the command-line prompts. Inputs are all validated. The new file 'logo.svg' will then be generated in the 'outputs' folder, which will be created if necessary.
 
 Shape selection:
 
